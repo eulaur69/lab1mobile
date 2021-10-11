@@ -4,7 +4,7 @@ video.addEventListener("touchstart", capteaza);
 video.addEventListener("mousedown", capteaza);
 
 function on_cam_succes(stream) {
-    video.scrObject = stream;
+    video.srcObject = stream;
 }
 
 function on_cam_error(err) {
